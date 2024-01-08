@@ -1,0 +1,29 @@
+{
+  "name": "demo-presentation",
+  "version": "1.0.0",
+  "description": "A demo presentation highlighting differences between CSS Frameworks and Preprocessors",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Paris2020/demo-presentation.git"
+  },
+  "keywords": [
+    "CSS",
+    "Sass",
+    "Bootstrap",
+    "CSS",
+    "Frameworks",
+    "Preprocessors",
+    "Bootstrap",
+    "CSS"
+  ],
+  "author": "Nelly Moseki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paris2020/demo-presentation/issues"
+  },
+  "homepage": "https://github.com/Paris2020/demo-presentation#readme"
+}
