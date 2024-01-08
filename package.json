@@ -4,7 +4,10 @@
   "description": "A demo presentation highlighting differences between CSS Frameworks and Preprocessors",
   "main": "index.js",
   "scripts": {
-    "test": "start"
+    "test": "start",
+    "build": "sass src/scss/style.scss build/css/style.css",
+    "watch": "sass --watch src/scss/style.scss build/css/style.css"
+
   },
   "repository": {
     "type": "git",
@@ -27,6 +30,7 @@
   },
   "homepage": "https://github.com/Paris2020/demo-presentation#readme",
   "dependencies": {
-    "bootstrap": "^5.2.0"
+    "bootstrap": "^5.2.0",
+    "sass": "^1.69.7"
   }
 }
