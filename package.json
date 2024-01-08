@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/Paris2020/demo-presentation/issues"
   },
-  "homepage": "https://github.com/Paris2020/demo-presentation#readme"
+  "homepage": "https://github.com/Paris2020/demo-presentation#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
 }
