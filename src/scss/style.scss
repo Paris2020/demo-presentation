@@ -1,0 +1,25 @@
+$black: #000;
+$pink: #ff2290;
+$yellow: #fbff22;
+$white: #fff;
+
+body {
+    background-color: $white;
+    margin: 0;
+}
+
+.container {
+    background-color: $pink;
+    padding: 2rem 0;
+
+    .wrapper {
+        background-color: $yellow;
+        max-width: 120rem;
+        margin: 0 auto;
+        padding: 0 4rem;
+
+        h1 {
+            text-align: center;
+        }
+    }
+}
