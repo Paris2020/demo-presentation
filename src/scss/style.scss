@@ -2,6 +2,19 @@
 $pink: #ff2290;
 $yellow: #fbff22;
 
+// Import two more specific bootstrap files
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+
+// Add to the current map with custom colors
+$custom-demo-colors: (
+    "golden-loop": #daa520,
+    "rich-red": #D30000
+);
+
+$theme-colors: map-merge($theme-colors, $custom-demo-colors);
+
 // Import the bootstrap.scss file from node_modules
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
