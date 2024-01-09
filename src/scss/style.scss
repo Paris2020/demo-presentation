@@ -1,11 +1,12 @@
-$black: #000;
+// Override global sass variables before importing bootstrap.scss
 $pink: #ff2290;
 $yellow: #fbff22;
-$white: #fff;
+
+// Import the bootstrap.scss file from node_modules
+@import "../../node_modules/bootstrap/scss/bootstrap";
 
 body {
-    background-color: $white;
-    margin: 0;
+    background-color: var(--bs-light);
 }
 
 .container {
