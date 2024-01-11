@@ -1,38 +1,54 @@
-// Override global sass variables before importing bootstrap.scss
+/* DEMO: PREPROCESSOR SASS 
+
+- VARIABLES
+- NESTING
+
+*/
+
+$white: #fff;
+$black: #000;
 $pink: #ff2290;
 $yellow: #fbff22;
 
-// Import two more specific bootstrap files
-@import "../../node_modules/bootstrap/scss/functions";
-@import "../../node_modules/bootstrap/scss/variables";
-
-
-// Add to the current map with custom colors
-$custom-demo-colors: (
-    "golden-loop": #daa520,
-    "rich-red": #D30000
-);
-
-$theme-colors: map-merge($theme-colors, $custom-demo-colors);
-
-// Import the bootstrap.scss file from node_modules
-@import "../../node_modules/bootstrap/scss/bootstrap";
+* {
+    margin: 0;
+}
 
 body {
-    background-color: var(--bs-light);
+    background-color: $white;
 }
 
 .container {
-    background-color: $pink;
-    //padding: 2rem 0;
+    padding-top: 4rem;
+    background-color: $yellow;
 
     .wrapper {
-        //background-color: $yellow;
-        //max-width: 120rem;
-        // padding: 0 4rem;
+        max-width: 120rem;
+        padding: 0 4rem;
 
         h1 {
             text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .blocks {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            background-color: $black;
+
+            .block {
+                color: $black;
+                height: 20rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: $pink;
+            }
         }
     }
 }
+
+
+
+/*DEMO: CSS FRAMEWORK BOOTSTRAP*/
